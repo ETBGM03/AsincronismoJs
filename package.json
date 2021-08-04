@@ -1,0 +1,27 @@
+{
+  "name": "asincronismojs",
+  "version": "1.0.0",
+  "description": "Aprender asincronismo con javaScript",
+  "main": "src/index.js",
+  "scripts": {
+   "callback": "node src/callback/index.js",
+   "callback:challenge": "node src/callback/challengeApi.js",
+   "promise": "node src/promise/index.js",
+   "promise:challenge": "node src/promise/challengeApi.js",
+   "async": "node src/asyncAwait/async.js",
+   "async:challenge": "node src/asyncAwait/challengeApi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ETBGM03/AsincronismoJs.git"
+  },
+  "author": "ETBGM03",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ETBGM03/AsincronismoJs/issues"
+  },
+  "homepage": "https://github.com/ETBGM03/AsincronismoJs#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
